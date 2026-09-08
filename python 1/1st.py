@@ -552,7 +552,7 @@ print("ans=",add(a,b))'''
 
                 #34.program fact
 
-'''def fact(x):
+def fact(x):
     f=1
     if x==0 or x==1:
         return 1
@@ -560,7 +560,7 @@ print("ans=",add(a,b))'''
         f=x*fact(x-1)
         return f
 n=int(input("Enter any number"))
-print("Factorial=",fact(n))'''
+print("Factorial=",fact(n))
 
 
                 #35.program fib
@@ -698,10 +698,15 @@ else:
 
 #43 CSV.
 
-import csv
+'''import csv
 with open("Student.csv","w",newline="") as file:
     writer =csv.writer(file)
     writer.writerow(["name","roll.no","PRJ No."])
     writer.writerow(["Himanshu",22,343])
     writer.writerow(["jhih",89,988])
-    writer.writerow(["jaiufd",29,909])
+    writer.writerow(["jaiufd",29,909])'''
+
+
+
+
+
